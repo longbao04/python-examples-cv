@@ -103,7 +103,7 @@ def center(points):
          points[2][1] +
          points[3][1]) /
         4.0)
-    return np.array([np.float32(x), np.float32(y)], np.float32)
+    return np.array([[x], [y]], dtype=np.float32)
 
 #####################################################################
 
